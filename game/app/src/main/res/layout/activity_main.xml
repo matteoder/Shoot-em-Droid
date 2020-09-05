@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.utente.game.model.MainActivity"
+    android:background="@drawable/backgroundwar">
+
+
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:contentDescription="TODO"
+        android:onClick="startGame"
+        android:src="@drawable/startbuttontr"
+        />
+
+    <ImageButton
+        android:id="@+id/setting"
+        android:layout_width="116dp"
+        android:layout_height="109dp"
+        android:background="@null"
+        android:onClick="leaderboard"
+        android:src="@drawable/leaderbrdbtn" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:layout_alignParentBottom="true"
+        android:onClick="exit"
+        android:padding="10dp"
+        android:text="exit"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="113dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:onClick="setting"
+        android:src="@drawable/rotellatrs"
+        android:visibility="visible" />
+
+</RelativeLayout>

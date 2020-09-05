@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/backgroundwar">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="PODIO"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginLeft="150dp"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/primo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="TextView" android:textColor="#000000"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/secondo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="TextView" android:textColor="#000000"
+        android:textSize="25sp"/>/>
+
+    <TextView
+        android:id="@+id/terzo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="TextView" android:textColor="#000000"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:onClick="goback"
+        android:padding="10dp"
+        android:text="Go back"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />/>
+</LinearLayout>
